@@ -29,7 +29,7 @@ public class SwaggerDocket {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(buildApiRequestHandler())
-                .paths(PathSelectors.regex(".*stock-item.*"))
+                .paths(PathSelectors.regex(".*register.*"))
                 .build()
                 .apiInfo(buildApiInfo());
     }
