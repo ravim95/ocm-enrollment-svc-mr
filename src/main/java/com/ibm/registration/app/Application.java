@@ -1,4 +1,4 @@
-    package com.ibm.inventory_management.app;
+    package com.ibm.registration.app;
 
     import org.springframework.beans.factory.annotation.Autowired;
     import org.springframework.boot.CommandLineRunner;
@@ -18,7 +18,7 @@
         Environment environment;
 
         public static void main(String[] args) {
-            SpringApplication.run(com.ibm.inventory_management.app.Application.class, args);
+            SpringApplication.run(com.ibm.registration.app.Application.class, args);
         }
 
         @Bean

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "${IMAGE_NAME:inventory-management-svc-mr}"
+    name: "${IMAGE_NAME:ocm-registration-svc-mr}"
 
 hello:
   pattern: "Hello there, %s!"
