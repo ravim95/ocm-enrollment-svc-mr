@@ -29,7 +29,8 @@ public class SwaggerDocket {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(buildApiRequestHandler())
-                .paths(PathSelectors.regex(".*register.*"))
+               .paths(PathSelectors.regex(".*register.*"))
+//                .paths(PathSelectors.any())
                 .build()
                 .apiInfo(buildApiInfo());
     }
