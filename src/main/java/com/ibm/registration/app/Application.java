@@ -10,8 +10,7 @@
     import org.springframework.context.annotation.Bean;
     import org.springframework.context.annotation.ComponentScan;
     import org.springframework.core.env.Environment;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+    import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
     @SpringBootApplication
     @ComponentScan({"com.ibm.inventory_management.*", "com.ibm.cloud_garage.*", "com.ibm.health", "com.ibm.hello.*", "com.ibm.registration.*"})
