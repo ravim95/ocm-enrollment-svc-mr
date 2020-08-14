@@ -16,7 +16,6 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
     @SpringBootApplication
     @ComponentScan({"com.ibm.inventory_management.*", "com.ibm.cloud_garage.*", "com.ibm.health", "com.ibm.hello.*", "com.ibm.registration.*"})
     @EnableMongoRepositories("com.ibm.registration.models")
-    @EnableJpaRepositories("com.ibm.registration.models.*")
     public class Application extends SpringBootServletInitializer {
         @Autowired
         Environment environment;
